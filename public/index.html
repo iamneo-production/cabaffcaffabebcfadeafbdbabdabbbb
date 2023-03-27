@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TABLE AND LISTS</title>
+<style>
+table, th, td{
+border: 2px solid black;
+border-collapse: collapse;
+}
+table{
+width: 50%;
+margin: auto;
+}
+h1{
+text-align: center;
+}
+</style>
+</head>
+<body style="background-color: antiquewhite;">
+<h1 id="heading">TABLES AND LISTS</h1>
+<table id="table-1">
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>Course</th>
+<th>Department</th>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer </td>
+<td>CS</td>
+</tr>
+</table>
+<ul style="margin-left:40% ;" id="list-1">
+<h2 id="courses">No Of Courses Available</h2>
+<li>Computer Science</li>
+<li>Electronics</li>
+<li>Aerounetics</li>
+<li>Mechanical</li>
+<li>Artificial Intelligence</li>
+</ul>
+</body>
+</html>
+Forms.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body style="background-color: antiquewhite;">
+<form action="./index.html" style="text-align:center ;margin: 15%;" id="login-form">
+
+<fieldset>
+<legend>Registration</legend>
+<label for="fname" >Name : </label>
+<input type="text" id="fname" name="fname" required><br><br>
+<label for="password">Password : </label>
+<input type="password" id="password" name="password" required><br><br>
+<label for="email">Email : </label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="course">Courses : </label>
+<select name="course" id="course">
+<option value="computer">Computer</option>
+<option value="maths">Maths</option>
+<option value="english">English</option>
+<option value="physics">Physics</option>
+<option value="tamil">Tamil</option>
+</select><br><br>
+<label for="address">Address : </label>
+<textarea name="address" id="address" cols="30" rows="5"
+required></textarea><br><br>
+<label for="country">Country : </label>
+<input list="countries" name="countries">
+<datalist id="countries">
+<option value="INDIA">
+<option value="Germany">
+<option value="Australia">
+<option value="France">
+</datalist><br><br>
+<button type="submit">SUBMIT</button>
+</fieldset>
+</form>
+</body>
+</html>
+Image.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Page Styling</title>
+<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+<div class="App" style="text-align: center;">
+<h1 >Image Map</h1>
+<div>
+<img src="./images/1.png" alt="workplace" usemap="#workmap" >
+<map name="workmap">
+<area shape="square" coords="79,129,11,35" href="./images/4.png" alt="coffee">
+<area shape="rect" coords="127,134,86,57" href="./images/3.png" alt="phone">
+<area shape="rect" coords="273,163,137,29" href="./images/2.png" alt="laptop">
+</map>
+</div>
+</div>
+</body>
+</html>
+Frame.Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Page Styling</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="App" >
+<!-- <frameset cols = "50%,50%"> -->
+<div class="column" style="text-align: center;" >
+<h1>FRAMES IN HTML</h1>
+
+<iframe name="left" src="./images/2.png" height="400" width="400" 
+ ></iframe>
+
+<iframe name="right" src="./images/2.png" height="400" width="400" ></iframe>
+</div>
+</div>
+<!-- </frameset> -->
+</body>
+</html>
